@@ -24,3 +24,18 @@
   <package id="Quartz" version="2.3.3" targetFramework="net45" />
 </packages>
 ```
+#Config Window Services Name
+ ```
+ <atlas>
+    <host name="EasyWinServicesForce" displayName="Sample Windows Service" description="Sample Windows Service" allowMultipleInstances="false">
+      <runtime accounttype="LocalSystem" startup="Automatic" />
+    </host>
+   
+  </atlas> 
+  ```
+## host  
+-1.name : Id of windows services
+-2.displayName : services label name in windows services explorer
+  
+  
+  
